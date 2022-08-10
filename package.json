@@ -4,7 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "node_modules/.bin/webpack --mode production",
+    "watch": "webpack --watch",
+    "build": "webpack --mode production",
     "serve": "webpack-dev-server --mode development"
   },
   "author": "",
