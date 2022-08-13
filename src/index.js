@@ -1,3 +1,12 @@
 import '../src/daem-ui/styles/tooltip.css';
 
-console.log('Hello Humans!');
+import Tooltip from './daem-ui/tooltip';
+
+// QUERIES
+const elementSpan = document.querySelector('.tooltip');
+
+// CREATE A TOOLTIP
+const toolTip = new Tooltip(elementSpan);
+
+toolTip.init();
+
