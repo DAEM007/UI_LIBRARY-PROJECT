@@ -1,4 +1,4 @@
-import '../src/daem-ui/styles/tooltip.css';
+// import '../src/daem-ui/styles/tooltip.css';
 
 import Tooltip from './daem-ui/tooltip';
 
@@ -9,4 +9,3 @@ const elementSpan = document.querySelector('.tooltip');
 const toolTip = new Tooltip(elementSpan);
 
 toolTip.init();
-
