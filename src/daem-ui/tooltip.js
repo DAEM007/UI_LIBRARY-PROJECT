@@ -10,7 +10,6 @@ class Tooltip{
         tip.classList.add('tip');
         tip.textContent = this.message;
         this.element.appendChild(tip);
-
         // ADD CLASS OF ACTIVE
         this.element.addEventListener('mouseenter', () => {
             tip.classList.add('active');
