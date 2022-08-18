@@ -1,0 +1,20 @@
+.drop-down .trigger {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.drop-down .trigger::after {
+    content: '>'; /*check out the single quotation here later*/
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    transform: rotate(90deg) scale(0.5, 1);
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.drop-down .trigger .active::after {
+    transform: rotate(-90deg) scale(0.5, 1);
+}
