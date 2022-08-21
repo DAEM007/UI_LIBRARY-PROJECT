@@ -18,3 +18,11 @@
 .drop-down .trigger .active::after {
     transform: rotate(-90deg) scale(0.5, 1);
 }
+
+.drop-down .content {
+    display: none;
+}
+
+.drop-down .content.active {
+    display: block;
+}
