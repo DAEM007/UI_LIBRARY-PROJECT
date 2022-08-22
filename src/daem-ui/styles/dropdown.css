@@ -15,7 +15,7 @@
     transition: transform 0.3s;
 }
 
-.drop-down .trigger .active::after {
+.drop-down .trigger.active::after {
     transform: rotate(-90deg) scale(0.5, 1);
 }
 
