@@ -10,15 +10,15 @@ body {
 .tooltip{
 position: relative;
 display: inline-block;
-color: #ff6565;
-border-bottom: 1px dotted #ff6565;
+color: #4e4edc;
+border-bottom: 1px dotted #4e4edc;
 cursor: help;
 }
 
 .tip{
 visibility: hidden;
 width: 150px;
-background-color: #ff6565;
+background-color: #4e4edc;
 color: #fff;
 text-align: center;
 border-radius: 10px;
@@ -45,5 +45,5 @@ margin-left: -4px;
 border-width: 4px;
 border-style: solid;
 border-color: transparent;
-border-top-color: #ff6565;
+border-top-color: #4e4edc;
 }
