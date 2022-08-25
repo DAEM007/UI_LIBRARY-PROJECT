@@ -1,3 +1,5 @@
+import './styles/snackbar.css';
+
 class Snackbar{
     constructor(){
         // Note that we do not need to pass an argument for the constructor because we are not getting a reference from the html
