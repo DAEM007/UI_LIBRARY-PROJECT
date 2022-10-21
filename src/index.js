@@ -1,5 +1,4 @@
 //ALL IMPORTS
-//  import '../src/daem-ui/styles/tooltip.css';
 import Tooltip from './daem-ui/tooltip';
 import Dropdown from './daem-ui/dropdown';
 import Tabs from './daem-ui/tabs';
